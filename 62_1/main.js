@@ -98,24 +98,28 @@ const users = [
     },
 ]
 const newUser = {
-        id: 5,
-        name: "DonaldDD",
-        isStudent: true,
-        address: {
-            country: "Sudan",
-            city: "Hartum",
-        }
+    id: 5,
+    name: "DonaldDD",
+    isStudent: true,
+    address: {
+        country: "Sudan",
+        city: "Hartum",
+    }
 
 }
 
 const users2 = [...users, newUser] //Добавление эл-та в массив
 
 // удалить элемент === 3
-
 const users3 = users.filter(user => user.id !== 3) // false
 console.log(users3)
 
+// id = 1, new city = "Sudan" Изменения свойстра массива у объекта.
+const users4 = users.map(user => user.id === 1 ? {...user,name: "Ali", address: {...user.address, city: "Chebocsary"}} : user)
+console.log(users4)
 
+const users5 = users4.map(user => user.id === 1 ? {...user, name: "Ali"}: user)
+console.log(users5)
 
 
 
