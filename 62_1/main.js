@@ -57,3 +57,77 @@ console.log(copyStudent2)
 
 const nickName = "Hook"
 const copyStudent4 = {...student, nickName: nickName}
+
+
+const users = [
+    {
+        id: 1,
+        name: "Bob",
+        isStudent: true,
+        address: {
+            country: "Sudan",
+            city: "Hartum",
+        }
+    },
+    {
+        id: 2,
+        name: "Alex",
+        isStudent: true,
+        address: {
+            country: "Sudan",
+            city: "Hartum",
+        }
+    },
+    {
+        id: 3,
+        name: "Abb",
+        isStudent: true,
+        address: {
+            country: "Sudan",
+            city: "Hartum",
+        }
+    },
+    {
+        id: 4,
+        name: "Donald",
+        isStudent: true,
+        address: {
+            country: "Sudan",
+            city: "Hartum",
+        }
+    },
+]
+const newUser = {
+        id: 5,
+        name: "DonaldDD",
+        isStudent: true,
+        address: {
+            country: "Sudan",
+            city: "Hartum",
+        }
+
+}
+
+const users2 = [...users, newUser] //Добавление эл-та в массив
+
+// удалить элемент === 3
+
+const users3 = users.filter(user => user.id !== 3) // false
+console.log(users3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
