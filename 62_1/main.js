@@ -53,3 +53,7 @@ const copyStudent2 = {...student, courses: [...student.courses, "Redux"]}
 
 console.log(student.courses)
 console.log(copyStudent2)
+
+
+const nickName = "Hook"
+const copyStudent4 = {...student, nickName: nickName}
