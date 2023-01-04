@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf745d57-a4fc-4b13-b7e7-5ed4c57000ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../62_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../62_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../62_2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../62_2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/it-incubator-new/vanilaJs",
+    "last_opened_file_path": "C:/it-incubator-new/vanilaJs/62_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,7 +48,7 @@
       <updated>1671448043205</updated>
       <workItem from="1671448044352" duration="7000" />
       <workItem from="1672749055313" duration="1821000" />
-      <workItem from="1672846366657" duration="15000" />
+      <workItem from="1672846318069" duration="47000" />
     </task>
     <servers />
   </component>

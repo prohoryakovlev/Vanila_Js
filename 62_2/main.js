@@ -27,7 +27,7 @@ let students = [
 ]
 const findBob = (st) => st.name === "Bob"
 
-
+// map, filter, sort
 
 // const getStScores = (st) => st.scores
 // const getStName = (st) => st.name
