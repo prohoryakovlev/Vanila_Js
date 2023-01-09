@@ -2,32 +2,33 @@
 // При вызове формируется объект  ({}) => event, ev, e
 // Если есть хэндлер => function() => callback
 
+const todoListId_1 = "12df-asds"
+const todoListId_2 = "45df-asds"
+
 const todoLists = [
     {
-        id: 1,
+        id: todoListId_1,
         title: "What to lear",
-        tasks: [
-            {name: "HTML", isDone: true},
-            {name: "CSS", isDone: true},
-        ]
     },
     {
-        id: 2,
+        id: todoListId_2,
         title: "What to buy",
-        tasks: [
-            {name: "Beer", isDone: false},
-            {name: "Fish", isDone: false},
-        ]
     }
 ]
 
 const tasks = {
-    1: [
+    [todoListId_1]: [
         {name: "HTML", isDone: true},
         {name: "CSS", isDone: true},
     ],
+    [todoListId_2]: [
+        {name: "Beer", isDone: false},
+        {name: "Fish", isDone: false},
+    ]
 }
 
+const nums = [1, 2, 3, 4]
+console.log()
 
 
 
